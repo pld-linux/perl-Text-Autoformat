@@ -25,7 +25,7 @@ capitalization schemes.
 
 %description -l pl
 Text::Autoformat udostêpnia inteligentne formatowanie czystego tekstu
-bez potrzeby jamkichkolwiek znaczników. Modu³ rozpoznaje internetowe
+bez potrzeby jakichkolwiek znaczników. Modu³ rozpoznaje internetowe
 konwencje cytowania, szeroki zasób wyliczeñ i wiele schematów, tekst
 centrowany, cytaty blokowe - i ka¿dy z nich odpowiednio reformatuje.
 Inne opcje pozwalaj± u¿ytkownikowi regulowaæ odstêpy miêdzy s³owami
