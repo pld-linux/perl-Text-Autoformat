@@ -1,4 +1,4 @@
-# $Revision: 1.2 $
+# $Revision: 1.3 $
 %define	pdir	Text
 %define	pnam	Autoformat
 %include	/usr/lib/rpm/macros.perl
@@ -6,7 +6,7 @@ Summary:	Text-Autoformat perl module
 Summary(pl):	Modu³ perla Text-Autoformat
 Name:		perl-Text-Autoformat
 Version:	1.04
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(cs):	Vývojové prostøedky/Programovací jazyky/Perl
