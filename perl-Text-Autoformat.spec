@@ -1,4 +1,3 @@
-# $Revision: 1.5 $
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Autoformat
