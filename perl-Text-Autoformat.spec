@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	Autoformat
+%define		pdir	Text
+%define		pnam	Autoformat
 Summary:	Text::Autoformat perl module
 Summary(pl):	Modu³ perla Text::Autoformat
 Name:		perl-Text-Autoformat
