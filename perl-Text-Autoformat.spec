@@ -1,12 +1,12 @@
-# $Revision: 1.4 $
+# $Revision: 1.5 $
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Autoformat
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text-Autoformat perl module
 Summary(pl):	Modu³ perla Text-Autoformat
 Name:		perl-Text-Autoformat
 Version:	1.04
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -34,7 +34,7 @@ i miêdzy akapitami, justowaæ tekst i stosowaæ ró¿ne schematy wielko¶ci
 liter.
 
 %prep
-%setup -q -n Text-Autoformat-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
