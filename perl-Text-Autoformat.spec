@@ -1,15 +1,20 @@
+#
+# Conditional build:
+# _without_tests - do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Autoformat
 Summary:	Text::Autoformat perl module
 Summary(pl):	Modu³ perla Text::Autoformat
 Name:		perl-Text-Autoformat
-Version:	1.04
-Release:	3
-License:	GPL
+Version:	1.10
+Release:	1
+License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6.1
+BuildRequires:	perl-Test-Reform
 BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -38,7 +43,8 @@ liter.
 %build
 %{__perl} Makefile.PL
 %{__make}
-%{__make} test
+
+%{!?_without_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -50,6 +56,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README demo.pl
+%doc Changes
 %{perl_sitelib}/Text/Autoformat.pm
 %{_mandir}/man3/*
