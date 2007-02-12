@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Autoformat
 Summary:	Text::Autoformat perl module
-Summary(pl):	Modu³ perla Text::Autoformat
+Summary(pl.UTF-8):   ModuÅ‚ perla Text::Autoformat
 Name:		perl-Text-Autoformat
 Version:	1.13
 Release:	1
@@ -30,13 +30,13 @@ appropriately. Other options allow the user to adjust inter-word and
 inter-paragraph spacing, justify text, and impose various
 capitalization schemes.
 
-%description -l pl
-Text::Autoformat udostêpnia inteligentne formatowanie czystego tekstu
-bez potrzeby jakichkolwiek znaczników. Modu³ rozpoznaje internetowe
-konwencje cytowania, szeroki zasób wyliczeñ i wiele schematów, tekst
-centrowany, cytaty blokowe - i ka¿dy z nich odpowiednio reformatuje.
-Inne opcje pozwalaj± u¿ytkownikowi regulowaæ odstêpy miêdzy s³owami
-i miêdzy akapitami, justowaæ tekst i stosowaæ ró¿ne schematy wielko¶ci
+%description -l pl.UTF-8
+Text::Autoformat udostÄ™pnia inteligentne formatowanie czystego tekstu
+bez potrzeby jakichkolwiek znacznikÃ³w. ModuÅ‚ rozpoznaje internetowe
+konwencje cytowania, szeroki zasÃ³b wyliczeÅ„ i wiele schematÃ³w, tekst
+centrowany, cytaty blokowe - i kaÅ¼dy z nich odpowiednio reformatuje.
+Inne opcje pozwalajÄ… uÅ¼ytkownikowi regulowaÄ‡ odstÄ™py miÄ™dzy sÅ‚owami
+i miÄ™dzy akapitami, justowaÄ‡ tekst i stosowaÄ‡ rÃ³Å¼ne schematy wielkoÅ›ci
 liter.
 
 %prep
