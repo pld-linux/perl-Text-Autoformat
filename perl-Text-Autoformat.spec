@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Autoformat
 Summary:	Text::Autoformat perl module
-Summary(pl.UTF-8):   Moduł perla Text::Autoformat
+Summary(pl.UTF-8):	Moduł perla Text::Autoformat
 Name:		perl-Text-Autoformat
 Version:	1.13
 Release:	1
