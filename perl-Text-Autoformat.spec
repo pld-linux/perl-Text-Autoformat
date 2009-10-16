@@ -8,12 +8,12 @@
 Summary:	Text::Autoformat perl module
 Summary(pl.UTF-8):	Moduł perla Text::Autoformat
 Name:		perl-Text-Autoformat
-Version:	1.13
-Release:	2
+Version:	1.666.0
+Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1a944e3e21e176178bb4f87a6068f041
+# Source0-md5:	195d361f71a7a177875d2aeb3110642e
 BuildRequires:	perl-Text-Reform >= 1.11
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
