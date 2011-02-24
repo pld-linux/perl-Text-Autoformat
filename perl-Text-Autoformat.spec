@@ -5,15 +5,15 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Text
 %define		pnam	Autoformat
-Summary:	Text::Autoformat perl module
-Summary(pl.UTF-8):	Moduł perla Text::Autoformat
+Summary:	Text::Autoformat - automatic text wrapping and reformatting
+Summary(pl.UTF-8):	Text::Autoformat - automatyczne zawijanie i reformatowanie tekstu
 Name:		perl-Text-Autoformat
-Version:	1.666.0
+Version:	1.669001
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	195d361f71a7a177875d2aeb3110642e
+Source0:	http://www.cpan.org/modules/by-module/Text/DCONWAY/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	cd0355e2fbf156736d2451a06eee09fa
 BuildRequires:	perl-Text-Reform >= 1.11
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -62,4 +62,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes
 %{perl_vendorlib}/Text/Autoformat.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/Text::Autoformat.3pm*
