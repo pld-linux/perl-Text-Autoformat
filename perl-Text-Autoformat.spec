@@ -14,6 +14,7 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Text/DCONWAY/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	c2c400207f49a769e32b5b1b660b07f7
+URL:		http://search.cpan.org/dist/Text-Autoformat/
 BuildRequires:	perl-Text-Reform >= 1.11
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
