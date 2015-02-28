@@ -8,12 +8,12 @@
 Summary:	Text::Autoformat - automatic text wrapping and reformatting
 Summary(pl.UTF-8):	Text::Autoformat - automatyczne zawijanie i reformatowanie tekstu
 Name:		perl-Text-Autoformat
-Version:	1.669004
+Version:	1.669006
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Text/DCONWAY/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	7a7881ca625fa71e551c1f43910f2865
+# Source0-md5:	24fd91e41790cdd7a800922a76845b2c
 URL:		http://search.cpan.org/dist/Text-Autoformat/
 BuildRequires:	perl-Text-Reform >= 1.11
 BuildRequires:	perl-devel >= 1:5.8.0
