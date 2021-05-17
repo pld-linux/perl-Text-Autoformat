@@ -8,17 +8,18 @@ Summary:	Text::Autoformat - automatic text wrapping and reformatting
 Summary(pl.UTF-8):	Text::Autoformat - automatyczne zawijanie i reformatowanie tekstu
 Name:		perl-Text-Autoformat
 # add "0000" to version because there were six-digit versions in 1.6xxxxx times
-%define	ver	1.74
+%define	ver	1.75
 Version:	%{ver}0000
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Text/%{pdir}-%{pnam}-%{ver}.tar.gz
-# Source0-md5:	2c147571940dddec4974ca8cd5ddc57f
-URL:		http://search.cpan.org/dist/Text-Autoformat/
+# Source0-md5:	b363538a55eb1315951cbe022124684b
+URL:		https://metacpan.org/release/Text-Autoformat
 BuildRequires:	perl-Text-Reform >= 1.11
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 Requires:	perl-Text-Reform >= 1.11
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
